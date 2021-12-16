@@ -1,5 +1,5 @@
 FROM node:14
-MAINTAINER okechukwu ikwunze
+
 
 WORKDIR /app
 COPY . .

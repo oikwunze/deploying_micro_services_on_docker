@@ -1,5 +1,5 @@
 FROM node:8
-MAINTAINER okechukwu ikwunze
+
 
 
 WORKDIR /app

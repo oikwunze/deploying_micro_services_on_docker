@@ -1,5 +1,5 @@
 FROM maven as build
-MAINTAINER okechukwu ikwunze
+
 
 
 WORKDIR /app
