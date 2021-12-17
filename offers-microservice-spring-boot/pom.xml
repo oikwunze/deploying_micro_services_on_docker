@@ -12,7 +12,7 @@
 	<artifactId>offers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>offers</name>
-	<description>Offers Microservice -The Deals you should not Miss</description>
+	<description>Offers Microservice - All offers services</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -34,10 +34,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-	        <version>2.1.1.RELEASE</version>
-	    </dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
 	</dependencies>
 
 	<build>
