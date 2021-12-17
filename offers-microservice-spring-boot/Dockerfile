@@ -1,7 +1,5 @@
 FROM maven as build
-
-
-
+MAINTAINER name
 WORKDIR /app
 COPY . .
 RUN mvn install
