@@ -2,7 +2,7 @@ FROM maven as build
 MAINTAINER name
 WORKDIR /app
 COPY . .
-RUN mvn install
+RUN mvn clean install
 
 #jdk
 FROM openjdk:11.0.10-jre
